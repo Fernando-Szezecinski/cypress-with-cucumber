@@ -1,0 +1,28 @@
+{
+  "name": "cypress-with-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:o": "cypress open",
+    "cy:r": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fernando-Szezecinski/cypress-with-cucumber.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fernando-Szezecinski/cypress-with-cucumber/issues"
+  },
+  "homepage": "https://github.com/Fernando-Szezecinski/cypress-with-cucumber#readme",
+  "devDependencies": {
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
